@@ -1,0 +1,37 @@
+trench-tools:
+  5x5:
+    name: '&e5x5 Trench Pickaxe'
+    material: 'DIAMOND_PICKAXE'
+    lore:
+    - '&dTray Mode: {tray-mode}'
+    - '&dMines blocks in a 5x5 radius'
+    enchants:
+    - 'DURABILITY:4'
+    - 'DIG_SPEED:5'
+  7x7:
+    name: '&e7x7 Trench Pickaxe'
+    material: 'DIAMOND_PICKAXE'
+    lore:
+    - '&dTray Mode: {tray-mode}'
+    - '&dMines blocks in a 7x7 radius'
+    enchants:
+    - 'DURABILITY:4'
+    - 'DIG_SPEED:5'
+  9x9:
+    name: '&e9x9 Trench Pickaxe'
+    material: 'DIAMOND_PICKAXE'
+    lore:
+    - '&dTray Mode: {tray-mode}'
+    - '&dMines blocks in a 9x9 radius'
+    enchants:
+    - 'DURABILITY:4'
+    - 'DIG_SPEED:5'
+  11x11:
+    name: '&e11x11 Trench Pickaxe'
+    material: 'DIAMOND_PICKAXE'
+    lore:
+    - '&dTray Mode: {tray-mode}'
+    - '&dMines blocks in a 11x11 radius'
+    enchants:
+    - 'DURABILITY:6'
+    - 'DIG_SPEED:7'
