@@ -9,7 +9,7 @@ import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
-import org.venompvp.trenchtools.TrenchTools;
+import org.venompvp.trenchtools.VenomTools;
 import org.venompvp.venom.Venom;
 import org.venompvp.venom.utils.Utils;
 
@@ -44,7 +44,7 @@ public enum TrenchTool {
         boolean trayMode = !new NBTItem(item.clone()).getBoolean("tray-mode");
 
         ItemMeta meta = item.getItemMeta();
-        meta.setLore(TrenchTools.getInstance().getConfig().getStringList("trench-tools." + getConfigKey() + ".lore").stream().map(s -> ChatColor.translateAlternateColorCodes('&', s.replace("{tray-mode}", trayMode ? "&aENABLED" : "&cDISABLED"))).collect(Collectors.toList()));
+        meta.setLore(VenomTools.getInstance().getConfig().getStringList("trench-tools." + getConfigKey() + ".lore").stream().map(s -> ChatColor.translateAlternateColorCodes('&', s.replace("{tray-mode}", trayMode ? "&aENABLED" : "&cDISABLED"))).collect(Collectors.toList()));
         item.setItemMeta(meta);
 
         NBTItem nbtItem = new NBTItem(item);

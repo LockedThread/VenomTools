@@ -1,4 +1,4 @@
-name: TrenchTools
-main: org.venompvp.trenchtools.TrenchTools
+name: VenomTools
+main: org.venompvp.trenchtools.VenomTools
 version: 1.0
 depend: [Venom]

@@ -20,7 +20,7 @@ public class TrenchToolCommand extends Command implements ParentCommand {
     @Override
     public void execute(CommandSender sender, List<Argument> args, String label) {
         sender.sendMessage("");
-        sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&e/trenchtool list - &dlists TrenchTools"));
+        sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&e/trenchtool list - &dlists VenomTools"));
         sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&e/trenchtool give {target} {tool} [amount] - &dgives a player a TrenchTool"));
         sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&7[]'s are optional"));
         sender.sendMessage("");

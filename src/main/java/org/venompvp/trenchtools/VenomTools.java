@@ -19,12 +19,12 @@ import org.venompvp.venom.module.ModuleInfo;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
-@ModuleInfo(name = "TrenchTools", version = "1.0", author = "Simpleness", description = "TrenchTools plugin for Venom")
-public class TrenchTools extends Module {
+@ModuleInfo(name = "VenomTools", version = "1.0", author = "Simpleness", description = "VenomTools plugin for Venom")
+public class VenomTools extends Module {
 
-    private static TrenchTools instance;
+    private static VenomTools instance;
 
-    public static TrenchTools getInstance() {
+    public static VenomTools getInstance() {
         return instance;
     }
 
